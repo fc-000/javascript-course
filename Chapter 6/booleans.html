@@ -38,7 +38,7 @@
       console.log(!false);
       */
 
-
+      /*
       if (0) {
         console.log('truthy');
       } 
@@ -55,8 +55,23 @@
 
       console.log('text' / 5); // Not a Number (NaN)
 
-      let (variable1);
+      let variable1;
       console.log(variable1)
+      */
+
+      // ternary operator
+      const result = 0 ? 'truthy' : 'falsy'
+      console.log(result);
+
+      // guard operator - when && stops the code early
+      false && console.log('hello');
+
+      const message = 5 && 'false';
+      console.log(message); 
+
+      //default operator 
+      const currency = undefined || 'USD';
+      console.log(currency);
     </script>
   </body>
 </html>
